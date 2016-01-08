@@ -11,11 +11,15 @@ Desarrollar los tests unitarios que crea necesarios.
 ### Tecnologías
 
 - [AngularJs](https://angularjs.org/): MVW (Model-View-Whatever), resuelve concerns de vista, DI, comunicación con servidor, etc
-- [Lo-Dash](http://lodash.com/): librería de utilidades varias, sobre todo interesantes para trabajar con colecciones de forma funcional
 - [Grunt](http://gruntjs.com/): task runner para automatizar la tarea de levantar el servidor y refrescar ante un cambio en el código
 
 ### Cómo correr la aplicación y los tests?
 
+- [Instalar Node.js](https://nodejs.org/en/download/)
+- Instalar Grunt `npm install -g grunt-cli`
+- Instalar Bower `npm install -g bower`
+- [Instalar Ruby](http://rubyinstaller.org/)
+- Instalar Compass `gem install compass`
 - Instalación de dependencias / setup inicial: `npm install && bower install`
 - Servidor: `grunt serve`
 - Tests: `grunt test`
